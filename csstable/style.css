@@ -1,0 +1,32 @@
+table, tr, td, th 
+  {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 2px;
+    width: 50%;
+
+  }
+
+tr:nth-child(even)
+  {
+    background-color: #aa6f73;
+  }
+
+tr:nth-child(odd)
+  {
+    background-color: #eea990;
+  }
+th
+  {
+    background-color: #66545e;
+  }
+
+tr:hover
+  {
+    background-color: #ffd3b6;
+  }
+
+p
+  {
+    font-family: 'Sacramento', cursive;
+  }
